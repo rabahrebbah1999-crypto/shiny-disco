@@ -1,0 +1,9 @@
+<canvas id="qrcode"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
+<script>
+QRCode.toCanvas(document.getElementById('qrcode'),
+"https://yourname.github.io",
+{ width: 300 });
+</script>
